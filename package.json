@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "start": "http-server ."
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.2"
   }
 }
